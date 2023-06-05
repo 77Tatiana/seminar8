@@ -51,6 +51,6 @@ void SortArrayLines (int[,] array)
         }
     }
 }
-System.Console.WriteLine();
+Console.WriteLine();
 PrintArray(array);
 
