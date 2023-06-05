@@ -32,6 +32,7 @@ void PrintArray(int[,] array)
         Console.WriteLine();
     }
 }
+SortArrayLines(array);
 void SortArrayLines (int[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
@@ -51,6 +52,5 @@ void SortArrayLines (int[,] array)
     }
 }
 System.Console.WriteLine();
-SortArrayLines(array);
 PrintArray(array);
 
